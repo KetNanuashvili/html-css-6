@@ -15,25 +15,25 @@
 .saturnpicture{
     z-index: 10;
     position: absolute;
-    width: 3000px;
+    width: 950px;
     top: 0.001px;
-    transform: translate(500px ,30px);
-    animation: mymove 30s infinite;
+    transform: translate(30px ,30px);
+    animation: mymove 50s infinite;
    
 }
 
 @keyframes mymove {
   0%   {top: 0px; left: 0px;}
-  10%  {top: 400px; left: -400px;}
-  20%  {top: 600px; left: -550px;}
-  30%  {top: 800px; left:  -600px;}
-  40%  {top: 1000px; left: -750px;}
-  50%  {top: 1200px; left: -400px;}
-  60%  {top: 1400px; left: -350px;}
-  70%  {top: 1600px; left: -200px;}
-  80%  {top: 1800px; left: -50px;}
-  90%  {top: 2000px; left: 100px;}
-  100% {top: 2200px; left: 250px;}
+  10%  {top: 100px; left: 100px;}
+  20%  {top: 150px; left: -125px;}
+  30%  {top: 200px; left:  -100px;}
+  40%  {top: 250px; left: -75px;}
+  50%  {top: 300px; left: -50px;}
+  60%  {top: 350px; left: -25px;}
+  70%  {top: 400px; left: 0px;}
+  80%  {top: 450px; left: 25px;}
+  90%  {top: 500px; left: 50px;}
+  100% {top: 550px; left: 100px;}
   
 } 
 
@@ -41,61 +41,69 @@
 .astronaut-1{
     z-index: 12;
     position: absolute;
-    width: 650px;
-    transform: translate(-1000px,500px);
-    animation: astronaut1 30s infinite;
+    width: 120px;
+    top: 0%;
+    left: 500px;
+    transform: translate(0);
+    animation: astronaut1 50s infinite;
 }
 @keyframes astronaut1{
-  0%   {top: 200px; right: 3000px; transform: rotate(0deg);}
-  25%  {top: 600px; right: 600px; transform: rotate(360deg);}
-  50%  {top: 1200px; right: 1200px; transform: rotate(90deg);}
-  75%  {top: 2000px; right: 2000px; transform: rotate(325deg);}
-  100% {top: 2800px; right: 2800px; transform: rotate(45deg);}
+  0%   {top: 200px; left: 500px; transform: rotate(0deg);}
+  25%  {top: 100px; left: 700px; transform: rotate(360deg);}
+  50%  {top: 300px; left: 900px; transform: rotate(90deg);}
+  75%  {top: 400px; left: 1000px; transform: rotate(325deg);}
+  100% {top: 570px; left: 1100px; transform: rotate(45deg);}
 }
 
 /*astronaur 2 picture*/
 .astronaut-2{
     z-index: 12;
-    width: 650px;
+    width: 200px;
     position: absolute;
-    transform: translate(-1000px,500px);
-    animation: astronaut2 30s  infinite;
+    top: 700px;
+    left: 0%;
+    transform: translate(0);
+    animation: astronaut2 20s  infinite;
     transition: all;
     transition-timing-function: ease;
 
 }
 @keyframes astronaut2{
-  0%   {top: 2800px; right: 2800px; transform: rotate(0deg);}
-  100% {top: 200px; right: 200px; transform: rotate(360deg);}
+  0%   {top: 600px; left: 900px; transform: rotate(0deg);}
+  100% {top: 200px; left: 200px; transform: rotate(360deg);}
 }
 /*hover*/
 .astronaut-2:hover{
-  width: 1400px;
+  width: 300px;
 }
 
 
 /*rocket picture 1*/
 .Realistic-Rocket{
   z-index: 9;
-  width: 500px;
+  width: 140px;
+  top: 0%;
+  left: 350px;
   position: absolute;
   animation: RealisticRocket 10s infinite;
 }
 @keyframes RealisticRocket{
-  0%   {top: 1600px; left: 1800px; }
-  100% {top: 500px; left: 3400px; }
+  0%   {top: 650px; left: 400px; }
+  100% {top: 200px; left: 1000px; }
 }
 /*rocket picture 2*/
 .rocket-desk{
   z-index: 9;
-  width: 500px;
+  width: 190px;
+  top: 0%;
+  left: 900px;
   position: absolute;
   animation: rocket-desk 7s infinite;
   transform: translate(0);
 
 }
 @keyframes rocket-desk{
-  0%   {top: 2000px; right: 3000px; }
-  100% {top: 20px; right:4500px;}
+  0%   {top: 750px; left: 900px; }
+  100% {top: 50px; left: 50px;}
 
 }
